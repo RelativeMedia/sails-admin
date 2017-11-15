@@ -1,0 +1,46 @@
+.NotificationComponent {
+  float: right;
+  z-index: 1001;
+  width: 400px;
+  position: absolute;
+  right: 10px;
+  top: 60px;
+}
+
+.devMode.NotificationComponent {
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 0 0 6px 6px;
+}
+
+.NotificationComponent.isEmpty {
+  display: none;
+}
+
+.Notification-Alert-Fade-enter {
+  opacity: 0.01;
+}
+
+.Notification-Alert-Fade-enter.Notification-Alert-Fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.Notification-Alert-Fade-leave {
+  opacity: 1;
+}
+
+.Notification-Alert-Fade-leave.Notification-Alert-Fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.Notification-Alert-Fade-appear {
+  opacity: 0.01;
+}
+
+.Notification-Alert-Fade-appear.Notification-Alert-Fade-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sails-admin",
+  "version": "0.12.14",
+  "description": "a SailsJs + ReactJs Admin Panel Application",
+  "main": "index.js",
+  "dependencies": {
+    "foreman": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "nf start --wrap"
+  }
+}

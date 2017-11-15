@@ -1,0 +1,10 @@
+export const DATA_FETCH = 'DATA_FETCH';
+export const DATA_FETCHED = 'DATA_FETCHED';
+export const DATA_FETCH_SINGLE = 'DATA_FETCH_SINGLE';
+export const DATA_FETCHED_SINGLE = 'DATA_FETCHED_SINGLE';
+export const DATA_CREATE = 'DATA_CREATE';
+export const DATA_CREATED = 'DATA_CREATED';
+export const DATA_UPDATE = 'DATA_UPDATE';
+export const DATA_UPDATED = 'DATA_UPDATED';
+export const DATA_DELETE = 'DATA_DELETE';
+export const DATA_DELETED = 'DATA_DELETED';

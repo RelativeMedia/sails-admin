@@ -1,0 +1,48 @@
+// ------------------------------------
+// SCSS COLOR VARIABLES
+// ------------------------------------
+// used for the navbar background
+$srp-blue: #006da8;
+// used for :hover navbar links
+$srp-nav-lighter-blue: #007ec2;
+// used for .active navbar links
+$srp-nav-darker-blue: #005e90;
+// used for the bottom border on navbar
+$srp-nav-blue-border: #085a88;
+
+// ------------------------------------
+// NAVBAR STYLING OVERRIDES
+// ------------------------------------
+.navbar-default {
+  background-color: $srp-blue;
+  border-bottom: 1px solid $srp-nav-blue-border;
+}
+.navbar-default .navbar-brand.logo {
+  padding-top: 0;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-brand:hover {
+  color: #063e5d;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: white;
+  background-color: $srp-nav-darker-blue;
+}
+
+.navbar-default .nav > li > a:focus,
+.navbar-default .nav > li > a:hover {
+  background-color: $srp-nav-lighter-blue;
+}

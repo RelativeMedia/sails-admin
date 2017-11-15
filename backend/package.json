@@ -1,0 +1,47 @@
+{
+  "name": "sapinfrastructure-backend",
+  "version": "0.1.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "eslint": "^3.18.0",
+    "lodash": "^4.17.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "pluralize": "^4.0.0",
+    "pm2": "^2.4.3",
+    "rc": "1.1.6",
+    "sails": "0.11.4",
+    "sails-disk": "^0.10.10",
+    "sails-hook-cron": "^2.2.0",
+    "sails-mysql": "^0.11.5",
+    "sails-service-cipher": "^3.2.1",
+    "sails-service-hash": "^3.2.1",
+    "sails-service-mailer": "^3.2.1",
+    "slugify": "^1.2.1"
+  },
+  "devDependencies": {
+    "barrels": "^1.6.4",
+    "chai": "3.4.1",
+    "chai-http": "^3.0.0",
+    "esdoc": "0.4.3",
+    "faker": "^4.1.0",
+    "istanbul": "0.4.2",
+    "mocha": "2.3.4",
+    "nodemon": "^1.11.0",
+    "sails-memory": "0.10.5",
+    "sinon": "1.17.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "node app.js",
+    "clean": "rm -rf ./.tmp",
+    "debug": "node debug app.js",
+    "docs": "esdoc -c esdoc.json",
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "istanbul cover _mocha",
+    "test:watch": "./node_modules/.bin/mocha -w"
+  }
+}

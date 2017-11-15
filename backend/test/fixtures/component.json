@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ERP Central Component",
+    "abbreviation": "ECC",
+    "id": 1
+  },
+  {
+    "name": "Business Warehouse",
+    "abbreviation": "BW",
+    "id": 2
+  },
+  {
+    "name": "Vertex",
+    "abbreviation": "VX",
+    "id": 3
+  },
+  {
+    "name": "Process Integration",
+    "abbreviation": "PI",
+    "id": 4
+  },
+  {
+    "name": "Distributed Adapter Engine",
+    "abbreviation": "DAE",
+    "id": 5
+  },
+  {
+    "name": "Enterprise Portal",
+    "abbreviation": "EP",
+    "id": 6
+  }
+]

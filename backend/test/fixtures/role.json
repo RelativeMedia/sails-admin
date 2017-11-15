@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Oracle",
+    "abbreviation": "ORA",
+    "id": 1
+  },
+  {
+    "name": "SAP Oracle",
+    "abbreviation": "SAPORA",
+    "id": 2
+  },
+  {
+    "name": "Oracle Data Guard",
+    "abbreviation": "ORADG",
+    "id": 3
+  },
+  {
+    "name": "SAP Dialog",
+    "abbreviation": "SAPDI",
+    "id": 4
+  },
+  {
+    "name": "SAP Message",
+    "abbreviation": "SAPMS",
+    "id": 5
+  },
+  {
+    "name": "Application",
+    "abbreviation": "APP",
+    "id": 6
+  },
+  {
+    "name": "Other",
+    "abbreviation": "OTH",
+    "id": 7
+  }
+]

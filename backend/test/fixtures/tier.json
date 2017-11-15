@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Development",
+    "abbreviation": "DEV",
+    "id": 1
+  },
+  {
+    "name": "Test",
+    "abbreviation": "TEST",
+    "id": 2
+  },
+  {
+    "name": "Quality Assurance",
+    "abbreviation": "QA",
+    "id": 3
+  },
+  {
+    "name": "Production",
+    "abbreviation": "PROD",
+    "id": 4
+  }
+]
